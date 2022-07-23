@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../assets/me-about.jpg'
+import reactDeveloper from '../../assets/react-developer.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderActive} from 'react-icons/vsc'
@@ -13,7 +13,7 @@ const About = () => {
     <div className='container about__container'>
       <div className="about__me">
         <div className="about__me-image">
-          <img  src={ME} alt='About me' />
+          <img  src={reactDeveloper} alt='About me' />
         </div>
       </div>
       <div className='about__content'>
@@ -35,7 +35,11 @@ const About = () => {
             <small>20 Completed projects</small>
           </article>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit dolore eius cupiditate, fugit incidunt placeat! Nesciunt soluta quam reiciendis esse eius quia ea maiores. Accusamus ut ea vitae quidem facilis!</p>
+        <p>I'm very ambitious front-end developer looking for a role in
+            established IT company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.</p>
+        <p>I'm quietly confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.</p>
         <a href='#contact' className='btn btn-primary'>Let's talk</a>
       </div>
 

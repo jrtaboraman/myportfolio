@@ -1,42 +1,38 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import storytoken from '../../assets/storytoken.png'
+import aureustoken from '../../assets/aureustoken.png'
+import socialbridge from '../../assets/socialbridge.png'
+import metazombietoken from '../../assets/metazombie.png'
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
-      title: 'Title one',
-      github: "https://github.com",
-      demo: 'https://dribbble.com'
+      image: storytoken,
+      title: 'Story Token',
+      demo: 'https://storytoken.app'
 
     },
     {
       id: 2,
-      image: IMG2,
-      title: 'Title one',
-      github: "https://github.com",
-      demo: 'https://dribbble.com'
+      image: aureustoken,
+      title: 'Aureus Token',
+      demo: 'https://aureus-token.com'
 
     },
     {
       id: 3,
-      image: IMG3,
-      title: 'Title one',
-      github: "https://github.com",
-      demo: 'https://dribbble.com'
+      image: socialbridge,
+      title: 'Socialbridge',
+      demo: 'https://socialbridge.pro'
 
     },
     {
       id: 4,
-      image: IMG4,
-      title: 'Title one',
-      github: "https://github.com",
-      demo: 'https://dribbble.com'
+      image: metazombietoken,
+      title: 'MetaZombie Token',
+      demo: 'https://metazombietoken.com'
 
     },
   ]
@@ -54,7 +50,6 @@ const Portfolio = () => {
           </div>          
           <h3>{title}</h3>
           <div className='portfolio__item-cta'>
-          <a href={github} className='btn' target='_blank'>Github</a>
           <a href={demo} className='btn ntn-primary' target='_blank'>Live Demo</a>
           </div>          
         </article>

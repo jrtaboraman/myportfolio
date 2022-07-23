@@ -16,23 +16,7 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
+          <p>Designs UI/UX for your web app using Firma, Maze or Flutter</p>
         </li>
       </ul>
       </article>
@@ -44,23 +28,7 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
+          <p>Develop your web app using the latest technology such as Rectjr, Angular, Bootstrap and more..</p>
         </li>
       </ul>
       </article>
@@ -72,23 +40,7 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon'/>
-          <p>Lorem ipsum dolor sit amet consectetur</p>
+          <p>Game development using Unity Game Engine</p>
         </li>
       </ul>
       </article>
